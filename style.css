@@ -1,0 +1,44 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: lightgrey;
+}
+
+.wrapper {
+    border-radius: 20px;
+    position: center;
+    color: black;
+    text-align: center;
+    border: 1px solid white;
+    width: 40%;
+    position: absolute;
+    box-shadow: 5px 5px 10px grey;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(white,lightgrey);
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 50px;
+}
+
+button {
+    background: black;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 8px 20px;
+    outline: none;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    font-family: "Roboto Mono", monospace;
+}
+
+button:hover{
+    background: grey;
+    border: solid 1px #050652;
+    color: black;
+}
